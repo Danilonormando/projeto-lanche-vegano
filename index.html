@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Curupira Lanches</title>
+</head>
+
+<body>
+    <div class="principal">
+        <main>
+            <header>
+                <img src="https://i.pinimg.com/originals/c3/b5/80/c3b580c634737246567058b9ea0bfea2.png" alt=""
+                    class="curupira-img">
+            </header>
+            <h1 class="curupira">CURUPIRA</h1>
+            <h2 class="lanches-veganos">Lanches Veganos</h2>
+            <h1 class="envie-seu-pedido">Envie seu pedido</h1>
+
+            <form action="" method="get">
+
+                <div class="div-indentificacao">
+                    <div class="div-logo-indentificacao">
+                        <img src="./images/logo-avatar.svg" alt="">
+                        <h4>Identificação</h4>
+                    </div>
+
+                    <div class="inputs-identificacao">
+                        <div class="input-name">
+                            <label for="name">Nome</label>
+                            <input type="text" name="Nome" id="name">
+                        </div>
+
+                        <div class="input-email">
+                            <label for="email">Email</label>
+                            <input type="email" name="Email" id="email">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tamanho">
+                    <div class="div-logo-indentificacao">
+                        <img src="./public/images/group-3.svg" alt="">
+                        <h4>Tamanho</h4>
+                    </div>
+
+                    <div class="div-opcoes-lanches">
+                        <div class="lanche">
+                            <div class="tamanho-lanche">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2738/2738717.png" alt=""
+                                    class="tamanho-lanche-img">
+                                <div>
+                                    <p class="opcao-lanche"> X-Amazônia</p>
+                                    <p class="preco">R$ 20,00</p>
+                                </div>
+                            </div>
+
+                            <div class="quantidade">
+                                <button type="button" class="btn-menos-lanchao">-</button>
+                                <p class="mostrador-quantidade" id="qtd-lanchao">0</p>
+                                <button type="button" class="btn-mais-lanchao">+</button>
+                            </div>
+                        </div>
+
+                        <div class="lanche">
+                            <div class="tamanho-lanche">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2738/2738717.png" alt=""
+                                    class="tamanho-lanche-img">
+                                <div>
+                                    <p class="opcao-lanche">X-Pantanal</p>
+                                    <p class="preco">R$ 15,00</p>
+                                </div>
+                            </div>
+
+                            <div class="quantidade">
+                                <button type="button" class="btn-menos-lanche">-</button>
+                                <p class="mostrador-quantidade" id="qtd-lanche">0</p>
+                                <button type="button" class="btn-mais-lanche">+</button>
+                            </div>
+                        </div>
+
+                        <div class="lanche">
+                            <div class="tamanho-lanche">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2738/2738717.png" alt=""
+                                    class="tamanho-lanche-img">
+                                <div>
+                                    <p class="opcao-lanche"> X-Mata Atlântica</p>
+                                    <p class="preco">R$ 10,00</p>
+                                </div>
+                            </div>
+
+                            <div class="quantidade">
+                                <button type="button" class="btn-menos-lanchinho">-</button>
+                                <p class="mostrador-quantidade" id="qtd-lanchinho">0</p>
+                                <button type="button" class="btn-mais-lanchinho">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="adicionais">
+                        <div class="div-logo-indentificacao">
+                            <img src="./public/images/ovogroup-3.svg" alt="">
+                            <h4>Adicionais </h4>
+                        </div>
+
+                        <div class="div-adicionais">
+                            <div class="opcao-adicional">
+                                <p class="nome-opcional">Cebola Crispy</p>
+                                <p class="preco-opcional">R$ 1,50</p>
+                            </div>
+
+                            <div class="quantidade">
+                                <button type="button" class="btn-menos-ovo">-</button>
+                                <p class="mostrador-quantidade" id="qtd-ovo">0</p>
+                                <button type="button" class="btn-mais-ovo">+</button>
+                            </div>
+                        </div>
+
+                        <div class="div-adicionais">
+                            <div class="opcao-adicional">
+                                <p class="nome-opcional">Cebola caramelizada</p>
+                                <p class="preco-opcional">R$ 1,00</p>
+                            </div>
+
+                            <div class="quantidade">
+                                <button type="button" class="btn-menos-abacaxi">-</button>
+                                <p class="mostrador-quantidade" id="qtd-abacaxi">0</p>
+                                <button type="button" class="btn-mais-abacaxi">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="molhos">
+                    <div class="div-logo-indentificacao">
+                        <img src="./public/images/group-3-molho.svg" alt="">
+                        <h4>Molhos</h4>
+                        <p class="preco-molho">+ R$ 2,00 cada</p>
+                    </div>
+
+                    <div class="opcoes-molhos">
+                        <div class="div-tipo-molho">
+                            <input type="checkbox" name="molho" id="molho-madeira">
+                            <label for="molho-madeira">Molho Madeira</label>
+                        </div>
+
+                        <div class="div-tipo-molho">
+                            <input type="checkbox" name="molho" id="molho-barbecue">
+                            <label for="molho-barbecue">Molho Barbecue</label>
+                        </div>
+
+                        <div class="div-tipo-molho">
+                            <input type="checkbox" name="molho" id="molho-casa">
+                            <label for="molho-casa">Molho de Alho</label>
+                        </div>
+
+                        <div class="div-tipo-molho">
+                            <input type="checkbox" name="molho" id="alecrim-dourado">
+                            <label for="alecrim-dourado">Molho de Ervas</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="batata-frita">
+                    <div class="div-logo-indentificacao">
+                        <img src="./public/images/group-3-batata.svg" alt="">
+                        <h4>Batata Frita</h4>
+                        <p class="preco-molho">+ R$ 2,00 cada</p>
+                    </div>
+
+                    <div class="radio-batata">
+                        <div>
+                            <input type="radio" name="batata" id="sim">
+                            <label for="sim">Sim, por favor!</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="batata" id="nao" checked>
+                            <label for="nao">Não, valeu.</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="algum-comentario">
+                    <div class="div-logo-indentificacao">
+                        <img src="./public/images/group-3-coment.svg" alt="">
+                        <h4>Algum comentário?</h4>
+                    </div>
+
+                    <textarea name="Comentario" id="" cols="30" rows="10"
+                        placeholder="Digite seu comentário aqui"></textarea>
+
+                </div>
+
+                <div class="termos-aceite">
+                    <input type="checkbox" name="" id="aceite">
+                    <label for="aceite">Você aceita vender sua alma para o veganismo?</label>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit" class="btn-enviar">Enviar pedido</button>
+                    <button type="button" class="btn-recuperar">Recuperar pedido anterior</button>
+                </div>
+            </form>
+
+        </main>
+        <div class="canto-laranja"></div>
+    </div>
+
+    <aside class="ticket">
+        <br><br>
+        == CURUPIRA ==
+        <br>
+        Alma vendida ao veganismo
+        <br>
+        <p class="ticket-id">Pedido n<sup>o</sup> <span id="ticket-number"></span></p>
+
+        <div class="items-lista">
+            <ol id="orderList"></ol>
+        </div>
+
+        Valeu por nunca mais não voltar
+
+        <br><br><br>
+    </aside>
+</body>
+<script src="./script.js"></script>
+
+</html>
