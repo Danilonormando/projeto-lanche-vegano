@@ -1,1 +1,1 @@
-# projeto-lanche-vegano
+# vegan-by-javascript
